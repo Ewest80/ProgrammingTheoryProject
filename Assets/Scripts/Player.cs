@@ -6,7 +6,7 @@ public class Player : Character
 {
     public override void Attack()
     {
-        Debug.Log($"{CharacterName} swings his sword at the enemy!");
+        Debug.Log($"{CharacterName} smashes the enemy with his greataxe!");
     }
 
     public override void Defend()
