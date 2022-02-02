@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void StartAttackRound()
+    private void StartAttackRound()  // ABSTRACTION
     {
         int playerAttack = Random.Range(0, 11);
         int enemyAttack = Random.Range(0, 11);

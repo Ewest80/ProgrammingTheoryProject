@@ -6,7 +6,7 @@ public class Character : MonoBehaviour
 {
     protected string characterName;
 
-    public string CharacterName
+    public string CharacterName  // ENCAPSULATION
     {
         get => characterName;
         set => characterName = value;
